@@ -1,0 +1,12 @@
+[user]
+	email = twono.dev@gmail.com
+	name = twono
+[credential]
+	helper = store
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	unstage = reset HEAD --
+	last = log -1 HEAD
