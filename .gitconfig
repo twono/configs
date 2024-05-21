@@ -1,5 +1,5 @@
 [user]
-	email = twono.dev@gmail.com
+    email = twono.dev@gmail.com
     name = twono
 [credential]
     helper = store
@@ -8,13 +8,13 @@
     autocrlf = false
     eol = lf
 [alias]
-	st = status
-	co = checkout
-	br = branch
+    st = status
+    co = checkout
+    br = branch
     ci = commit
     addmod = add -u
     fixup = commit --fixup
-	unstage = reset HEAD --
+    unstage = reset HEAD --
     last = log -1 HEAD
     head = log --graph --oneline --decorate -n 10
     lg = log --graph --oneline --decorate
