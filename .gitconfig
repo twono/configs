@@ -2,11 +2,29 @@
 	email = twono.dev@gmail.com
 	name = twono
 [credential]
-	helper = store
+    helper = store
+[core]
+    editor = vim
+    autocrlf = false
+    eol = lf
 [alias]
 	st = status
 	co = checkout
 	br = branch
-	ci = commit
+    ci = commit
+    addmod = add -u
+    fixup = commit --fixup
 	unstage = reset HEAD --
-	last = log -1 HEAD
+    last = log -1 HEAD
+    head = log --graph --oneline --decorate -n 10
+    lg = log --graph --oneline --decorate
+[pull]
+    ff = only
+[push]
+    autoSetupRemote = true
+[rebase]
+    autosquash = true
+[submodule]
+    recurse = true
+[diff]
+    submodule = log

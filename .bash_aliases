@@ -1,4 +1,6 @@
-alias clang="/usr/bin/clang++-18 -std=c++23 -O2"
-alias duh="du -h --max-depth=1"
-alias lls="ls -lh"
-alias lpt="ls -lpth"
+alias clang='/usr/bin/clang++-18 -std=c++23 -O2'
+alias clangformat='clang-format --style=file -i'
+alias grep='grep -n --color'
+alias duh='du -h --max-depth=1'
+alias lls='ls -lh'
+alias lpt='ls -lpth'
