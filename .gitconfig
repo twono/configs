@@ -1,6 +1,6 @@
 [user]
 	email = twono.dev@gmail.com
-	name = twono
+    name = twono
 [credential]
     helper = store
 [core]
